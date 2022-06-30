@@ -143,5 +143,17 @@ def repas():
     webbrowser.get(Navigateur).open("https://www.notion.so/Historique-des-repas-dfd8ab2629dd467c9ab13377dbd64e16")
 def github():
     webbrowser.get(Navigateur).open("https://github.com/")
+
 def YTmusic():
     webbrowser.get(Navigateur).open("https://music.youtube.com/")
+def Youtube():
+    webbrowser.get(Navigateur).open("https://www.youtube.com/")
+def Disney():
+    webbrowser.get(Navigateur).open("https://www.disneyplus.com/fr-fr/home")
+def Canal():
+    webbrowser.get(Navigateur).open("https://www.canalplus.com/")
+
+def Twitter():
+    webbrowser.get(Navigateur).open("https://twitter.com/home")
+def Insta():
+    webbrowser.get(Navigateur).open("https://www.instagram.com/")

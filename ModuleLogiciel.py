@@ -1,3 +1,4 @@
+import subprocess
 import os
 
 def navigateur():
@@ -7,11 +8,15 @@ def nautilus():
 def VisualStudio():
     os.popen("/usr/bin/code")
 def terminal():
-    os.popen("/usr/bin/gnome-terminal")
-def appArduino():
-    os.popen("/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=arduino --file-forwarding cc.arduino.arduinoide")
+    os.popen("gnome-terminal")
 def libreoffice():
-    os.popen("/usr/bin/libreoffice")
+    os.popen("libreoffice")
+def Witter():
+    os.popen("libreoffice --writer")
+def impress():
+    os.popen("libreoffice --impress")
+def calc():
+    os.popen("libreoffice --calc")
 def heroic():
     os.popen("/opt/Heroic/heroic")
 def playonlinux():
@@ -25,7 +30,30 @@ def Chrome():
 def discord():
     os.popen("flatpak run com.discordapp.Discord")
 def KeepassXC():
-    os.popen("/usr/bin/keepassxc")
+    os.popen("keepassxc")
 def VNC():
     os.popen("vncviewer")
-
+def gimp():
+    os.popen("gimp")
+def Spyder():
+    os.popen("spyder")
+def arduino():
+    os.popen("flatpak run cc.arduino.arduinoide")
+def jupyter():
+    os.popen("jupyter-notebook /home/baptistep/")
+def Steam():
+    os.popen("steam")
+def Heroic():
+    os.popen("flatpak run com.heroicgameslauncher.hgl")
+def playonlinux():
+    os.popen("playonlinux")
+def Minecraft():
+    os.popen("./Script-Bash/minecraft.sh")
+def Signal():
+    os.popen("flatpak run org.signal.Signal")
+def Mail():
+    os.popen("mailspring")
+def setting():
+    os.popen("gnome-control-center")
+def barrier():
+    os.popen("barrier")
